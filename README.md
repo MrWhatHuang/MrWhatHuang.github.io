@@ -1,2 +1,0 @@
-# mrwhathuang.github.io
-mrwhathuang
