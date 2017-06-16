@@ -7,9 +7,13 @@ body{
 	}
 .myfont{
 	font-family: rebot;
-	font-size: 60px;
-	color: black;
+	font-size: 90px;
+	color: white;
 	margin-top: 30px;
+	text-align: center;
+	float: left;
+	position: absolute;
+	font-weight: 200;
 }
 .head{
 	height: 350px;
