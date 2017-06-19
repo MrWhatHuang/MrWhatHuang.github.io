@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
-<meta charset="utf-8"/>
-<link rel="stylesheet" href="css/Mainpage.css" />
-<link rel="stylesheet" href="css/danceword.css" />
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
-<script src="js/danceword.js"></script>
-<head>
-	<title></title>
-</head>
-<body>
-	<div class="divvideo">
-		
-		<video autoplay="autoplay" loop="loop">
-			<source src="audio/scene-PUUMUgXlHH.webm" type="video/webm"></source>
-		</video>
-		<div class="myfont"><p class="danceWord-s1">一夫当关,万夫莫开!</p></div>
-	</div>
-</body>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/Mainpage.css" />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/echarts.simple.min.js"></script>
+		<script src="js/drawlogo.js"></script>
+	</head>
+	<body>
+		<script>
+			$(document).ready(function() {
+					drawLogo();
+			});
+		</script>
+		<div id="animate-logo" class="logo"></div>
+	</body>
 </html>
