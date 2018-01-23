@@ -1,9 +1,20 @@
 <section class="post-comments">
 
   {% if site.comment.uyan %}
-    <div id="uyan_frame"></div>
-
-    <script type="text/javascript" src="http://v2.uyan.cc/code/uyan.js?uid=2156476"></script>
+    <div id="gitmentContainer"></div>
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script>
+	var gitment = new Gitment({
+	    owner: 'MrWhatHuang',
+	    repo: 'mrwhathuang.github.io',
+	    oauth: {
+	        client_id: '1c8b46f72b695a21fd85',
+	        client_secret: '19fcd024902ef99865c2d35ea66bcc9361007b38',
+	    },
+	});
+	gitment.render('gitmentContainer');
+	</script>
 
   {% elsif site.comment.disqus %}
     <div id="disqus_thread"></div>
