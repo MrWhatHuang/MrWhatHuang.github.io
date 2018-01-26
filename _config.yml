@@ -7,11 +7,15 @@ avatarTitle: Mr.What
 # 头像里面的描述
 avatarDesc: HTML / C#
 url: "http://mrwhat.cn"
+# github用户名
+githubUser: MrWhatHuang
+# 博客项目库名
+blogName: mrwhathuang.github.io
 
 # Comment
 comment:
     # disqus: leopard
-    uyan: 2156476  # 有言id,登录有言官网申请
+    github: 2156476  # github 的 issuss功能
 
 # Social
 social:
